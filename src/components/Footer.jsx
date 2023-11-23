@@ -9,7 +9,7 @@ const Footer = () => {
 
       <div className='footer-container'>
         <p>
-          © 2023 <strong>Nnamdi Ekechi</strong>. All rights reserved.
+          © {new Date().getFullYear()} <strong>Nnamdi Ekechi</strong>. All rights reserved.
         </p>
 
         <div className='flex gap-3 justify-center items-center'>
